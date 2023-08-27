@@ -1,8 +1,7 @@
-//import s from './StartPage.module.scss'
-import {ReactNode} from 'react'
+import { ReactNode } from 'react'
 
-function StartPage(): ReactNode {
-  return <>Start</>
+function MusicPage(): ReactNode {
+  return <>Music</>
 }
 
-export default StartPage
+export default MusicPage
