@@ -4,6 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
+dist
+out
+*.log*
+
 
 # testing
 /coverage
@@ -21,3 +25,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.vscode
+.idea
+.env
+
