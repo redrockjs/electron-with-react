@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <title>Electron</title>
   <!--    https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP-->
   <meta
@@ -13,5 +13,18 @@
 <body>
 <div id="root"></div>
 <script type="module" src="/src/main.tsx"></script>
+
+<script>
+  const webview = document.querySelector('music');
+
+  webview.addEventListener('dom-ready', () => {
+    webview.insertCSS(`
+      body {
+        background: #3FF!important;
+      }
+      `)
+  });
+</script>
+
 </body>
 </html>
