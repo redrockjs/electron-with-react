@@ -1,6 +1,6 @@
 import s from './Default.module.scss'
-import Header from '@renderer/components/Header/Header'
 import { ReactNode } from 'react'
+import { Header } from '@renderer/components'
 
 type Props = {
   children: ReactNode
